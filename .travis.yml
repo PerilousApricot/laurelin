@@ -9,8 +9,8 @@ jobs:
   include:
   - name: "Spark2.4+"
     env: LAURELIN_SPARK=spark24
-  - mame: "Spark3.0+"
-    env: LAURELIN_SPARK=spark30
+#  - name: "Spark3.0+"
+#    env: LAURELIN_SPARK=spark30
 
 install: true
 
